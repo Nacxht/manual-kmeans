@@ -21,7 +21,7 @@ kmeans.get_df_info()
 print()
 
 # menampilkan pairplot
-# kmeans.pairplot(columns)
+kmeans.pairplot(columns)
 
 # menampilkan descripitive statistics
 # seperti mean, median, modus, stdev
@@ -44,7 +44,7 @@ print(normalized_df.head())
 
 # penentuan jumlah cluster (K)
 # menggunakan silhouette score
-# kmeans.silhouette_visualization(10)
+kmeans.silhouette_visualization(10)
 
 # proses clustering
 # dengan jumlah cluster (K) sebanyak 6 cluster
